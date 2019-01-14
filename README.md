@@ -53,7 +53,7 @@ Vue.use(jasonBorder);
 <!-- x 轴下边线 -->
 <jason-border jason-border x/>
 <!-- y 轴左边线，要设置父元素的高度(height: 100% 实现) -->
-<jason-border jason-border y">
+<jason-border jason-border y"/>
 <!-- 填充屏幕，使元素超过其方向的屏幕(注意溢出滚动条的问题) -->
 <jason-border jason-border x fill/>
 <jason-border jason-border y fill/>
