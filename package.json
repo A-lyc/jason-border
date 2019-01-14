@@ -1,0 +1,38 @@
+{
+  "name": "jason-border",
+  "version": "0.1.0",
+  "description": "布局边框",
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name jason-vue-border ./src/vue/plugin/index.js & gulp",
+    "vue-serve": "vue-cli-service serve ./src/vue/index.js",
+    "vue-build": "vue-cli-service build --target lib --name jason-vue-border ./src/vue/plugin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/q-jason/jason-border.git"
+  },
+  "keywords": [
+    "css",
+    "vue",
+    "border"
+  ],
+  "author": "q-jason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/q-jason/jason-border/issues"
+  },
+  "homepage": "https://github.com/q-jason/jason-border#readme",
+  "devDependencies": {
+    "@vue/cli-service": "^3.3.0",
+    "autoprefixer": "^9.4.5",
+    "cssnano": "^4.1.8",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0",
+    "vue-template-compiler": "^2.5.22",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.5.22"
+  }
+}
