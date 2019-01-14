@@ -16,6 +16,8 @@ npm i --save jason-border
 import 'jason-border/dist/jason-border.css';
 ```
 
+or
+
 ```html
 <link rel="stylesheet" href="dist/jason-border.css">
 ```
