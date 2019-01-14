@@ -17,6 +17,10 @@ import 'jason-border/dist/jason-border.css';
 ```
 
 ```html
+<link rel="stylesheet" href="dist/jason-border.css">
+```
+
+```html
 <!-- x 轴下边线 -->
 <b class="jason-border x"></b>
 <!-- y 轴左边线，要设置父元素的高度(height: 100% 实现) -->
